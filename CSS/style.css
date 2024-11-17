@@ -1,0 +1,485 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+    overflow-x: hidden;
+}
+.card-text {
+    font-size: larger;
+}
+
+.view {
+    width: 85%;
+    margin: 50px auto;
+    position: relative;
+}
+.card{
+    margin-left: 40px;
+}
+.accordion {
+    margin-top: 100px;
+}
+.carousel-inner img {
+    max-height: 100vh;
+    object-fit: cover;
+}
+.icons {
+    width: 80px;
+    height: 300px;
+    position: fixed;
+    z-index: 10;
+    right: 60px;
+    top: 240px;
+}
+.icons ul li {
+    list-style: none;
+}
+.icons ul li a {
+    font-size: 50px;
+    color: #cc6b96;
+}
+.icons ul li a:hover {
+    color: rgb(203, 73, 131);
+}
+.container2 {
+    height: 320px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: white;
+    background-image: -webkit-linear-gradient(left, #cc6b96, #cd407ffa);
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.container1 {
+    height: 209px;
+    font-size: 30px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: -webkit-linear-gradient(left, #cc6b96, #cd407ffa);
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.container3 {
+    height: 280px;
+    font-size: 30px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: -webkit-linear-gradient(left, #cc6b96, #cd407ffa);
+    padding: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+.c3 {
+    background-image: url(../images/pexels-jesse-venn-3762773-5582621.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 300px;
+}
+.c4 {
+    height: 600px;
+    color: white;
+    text-align: center;
+}
+.btn {
+    background-color: #cc6b96;
+    color: white;
+}
+.btn a i {
+    font-size: 24px;
+    margin-right: 3px;
+    color: #FFD43B
+}
+.card1 {
+    position: relative;
+    border-radius: 25px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+}
+.card1::after {
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.2);
+    left: 0;
+    width: 0;
+    height: 0;
+    border-radius: 10px;
+    top: 0;
+    transition: 1s;
+}
+.card1:hover::after {
+    height: 100%;
+    width: 100%;
+}
+.card1::before {
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 0, 0, 0.2);
+    right: 0;
+    width: 0;
+    height: 0;
+    border-radius: 10px;
+    bottom: 0;
+    transition: 1s;
+}
+.card1:hover::before {
+    height: 100%;
+    width: 100%;
+}
+.c5 {
+    background-image: url(../imgs/yomna.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 300px;
+}
+.card2 {
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    transform: scale(1);
+    position: relative;
+    transition: transform 0.5s;
+    border-radius: 15px;
+}
+.card2:hover {
+    transform: scale(0.94);
+}
+.circle {
+    width: 130px;
+    height: 130px;
+    z-index: 2;
+    border-radius: 50%;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
+    position: absolute;
+    bottom: 90px;
+    left: 15px;
+}
+.a {
+    background-image: url(../imgs/u.jpg);
+    background-size: cover;
+}
+.b {
+    background-image: url(../imgs/photo_7_2024-10-24_21-16-35.jpg);
+    background-size: cover;
+}
+.d {
+    background-image: url(../imgs/photo_2024-10-25_00-13-56.jpg);
+    background-size: cover;
+}
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 8px;
+}
+.overlay h4 {
+    color: white;
+}
+.card2:hover .overlay {
+    background-image: -webkit-linear-gradient(top, rgba(93, 65, 78, 0.6), rgba(0, 0, 0, 0.3));
+    transition: 1s;
+}
+.card2:hover .content {
+    color: white;
+}
+.overlay a i {
+    color: white;
+    font-size: 22px;
+}
+.overlay p {
+    color: white;
+    font-size: 20px;
+}
+.content {
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    font-size: 22px;
+    z-index: 2;
+}
+.offcanvas {
+    background-image: url(../imgs/pexels-rdne-8903614.jpg);
+    background-size: cover;
+}
+.sec11-card {
+    display: flex;
+    height: 400px;
+    margin:  auto;
+    position: relative;
+    color: black;
+    width: 90%;
+    font-size: 25px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 4px 5px 6px 3px rgba(0, 0, 0, 0.1);
+}
+.sec11-card-content {
+    padding: 20px;
+    width: 60%;
+}
+.card-image {
+    width: 36%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background-size: cover;
+    background-image: url(../images/WhatsApp\ Image\ 2024-10-27\ at\ 9.38.04\ PM.jpeg);
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 10% 100%);
+}
+.sec11-card-content button a i,p a i {
+    color: white;
+    font-size: 27px;
+}
+.kkk {
+    color: black;
+    font-size: 27px;
+}
+.sec11-card-content button {
+    background-color: rgb(230, 137, 178);
+    color: white;
+}
+.sec11-card-content button:hover {
+    background-color: rgba(230, 137, 178, 0.7);
+}
+.image2{
+    background-image: url(../images2/WhatsApp\ Image\ 2024-10-29\ at\ 10.54.19\ PM\ \(1\).jpeg);
+}
+.image1{
+    background-image: url(../images2/WhatsApp\ Image\ 2024-10-29\ at\ 10.54.17\ PM.jpeg);
+}
+.image3{
+    background-image: url(../images2/WhatsApp\ Image\ 2024-10-29\ at\ 10.54.18\ PM.jpeg);
+}
+/*******************************************************************************************************************/
+.sec12-card {
+    display: flex;
+    height: 400px;
+    margin:  auto;
+    position: relative;
+    color: black;
+     width: 90%;
+    font-size: 25px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 4px 5px 6px 3px rgba(0, 0, 0, 0.1);
+}
+.sec12-card-content {
+    padding: 20px;
+    width: 60%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.card-image2 {
+    width: 36%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-size: cover;
+    clip-path: polygon(0% 0%, 90% 0%, 100% 100%, 0% 100%);
+}
+.sec12-card-content button a i,p a i {
+    color: white;
+    font-size: 27px;
+}
+.kkk {
+    color: black;
+    font-size: 27px;
+}
+.sec12-card-content button {
+    background-color: rgb(230, 137, 178);
+    color: white;
+}
+.sec12-card-content button:hover {
+    background-color: rgba(230, 137, 178, 0.7);
+}
+.sec13-card {
+    display: flex;
+    height: 400px;
+    margin: 30px auto;
+    position: relative;
+    color: black;
+     width: 90%;
+    font-size: 25px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 4px 5px 6px 3px rgba(0, 0, 0, 0.1);
+}
+.sec14-card {
+    display: flex;
+    height: 400px;
+    margin: 30px auto;
+    position: relative;
+    color: black;
+     width: 90%;
+    font-size: 25px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 4px 5px 6px 3px rgba(0, 0, 0, 0.1);   
+}
+hr {
+    background-color: #cc6b96;
+    height: 5px;
+    width: 240px;
+}
+/******************************************************************************************************************/
+.icon-telegram{
+    background-image: url(../icons/WhatsApp_Image_2024-10-29_at_11.11.17_PM-removebg-preview.png);
+    width: 170px;
+    height: 170px;
+    background-size: cover;
+}
+.icon-insta{
+    background-image: url(../icons/WhatsApp_Image_2024-10-29_at_11.11.21_PM-removebg-preview.png);
+    width: 170px;
+    height: 170px;
+    background-size: cover;
+}
+.icon-whatsapp{
+    background-image: url(../icons/WhatsApp_Image_2024-10-29_at_11.11.32_PM-removebg-preview.png);
+    width: 170px;
+    height: 170px;
+    background-size: cover;
+}
+.icon-facebook{
+    background-image: url(../icons/WhatsApp_Image_2024-10-29_at_11.11.26_PM-removebg-preview.png);
+    width: 170px;
+    height: 170px;
+    background-size: cover;
+}
+.content-icons{
+    background-color: white;
+    box-shadow: 4px 5px 6px 3px rgba(0, 0, 0, 0.1);
+    height: 250px;
+    width: 180px;
+    border-radius: 25px;
+    margin-bottom: 90px;
+}
+.join , .brand , .elevate , .offer{
+    background-image: -webkit-linear-gradient(left, #c27c9b, #cd407ffa);
+    color: white;
+    width: 75%;
+    text-align: center;
+    margin:70px auto;
+}
+.content-icons a{
+text-decoration: none;
+color: rgb(120, 116, 119);
+}
+.content-icons a:hover{
+    color: black;
+}
+/**********************************************************************************************************************/
+ .footer {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(237, 236, 234);
+    position: relative;
+}
+ .p{
+    background-image: url(../images2/WhatsApp\ Image\ 2024-10-29\ at\ 10.54.11\ PM.jpeg);
+    background-size: cover;
+}
+.i{
+    background-image: url(../images2/WhatsApp\ Image\ 2024-10-29\ at\ 10.54.15\ PM.jpeg);
+    background-size: cover;
+}
+.y{
+    background-image: url(../images2/WhatsApp\ Image\ 2024-10-29\ at\ 10.54.17\ PM\ \(1\).jpeg);
+    background-size: cover;
+}.text-center{
+    position: relative;
+}
+.circle1{
+    width: 110px;
+    height: 110px;
+    z-index: 2;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+   left:60px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.4);
+    
+}
+
+.footer-content{
+    position: absolute;
+    top: 160px;
+    font-size: 26px;
+   
+}
+.footer-content p:hover{
+color: rgb(113, 113, 113);
+}
+
+@media (min-width: 768px) {
+    .sec11-card, .sec12-card, .sec13-card, .sec14-card {
+        flex-direction: row; 
+        height: 400px; 
+        margin-top: 0; 
+    }
+}
+@media (min-width: 768px) {
+    .card-image {
+        width: 36%; 
+        height: auto; 
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100%;
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 10% 100%);
+    }
+
+    .card-image2 {
+        width: 36%; 
+        height: auto; 
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%; 
+        clip-path: polygon(0% 0%, 90% 0%, 100% 100%, 0% 100%);
+    }
+}
+@media(max-width:700px) {
+    .icons ul li a {
+        font-size: 29px;
+    }
+
+    .icons {
+        position: fixed;
+        top: 6px;
+        right: 70px;
+        height: 100px;
+    }
+}
+
+@media(max-width:900px) {
+    .icons ul li a {
+        font-size: 35px;
+    }
+
+    .icons {
+        position: fixed;
+        top: 6px;
+        right: 70px;
+        height: 100px;
+    }
+}
+
+@media(max-width:1000px) {
+    .icons ul li a {
+        font-size: 35px;
+    }
+
+    .icons {
+        position: fixed;
+        top: 280px;
+        right: -10px;
+        height: 100px;
+    }
+}
+
